@@ -1,0 +1,51 @@
+.banner{
+    background-color: rgb(88, 81, 138);
+    width: 95%;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;   
+}
+
+
+.banner-text{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    transform: translate(-50%,-50%)   
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .row{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    
+  }
+  /* .row{
+    border-radius: 25px;
+    border: 2px solid #070707;
+  } */
+ 
